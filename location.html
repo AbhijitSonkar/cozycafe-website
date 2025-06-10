@@ -1,0 +1,86 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Location - CozyCafe</title>
+</head>
+<body>
+<header>
+    <img src="logo.png" alt="CozyCafe Logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Find Us</h1>
+    <p>Address: 123 Cozy St, Comfort City</p>
+    <div id="map"></div>
+    <h2>Photos</h2>
+    <img src="cafe_exterior.jpg" alt="Cafe Exterior">
+    <img src="cafe_interior.jpg" alt="Cafe Interior">
+</main>
+<footer>
+    <p>&copy; 2023 CozyCafe</p>
+</footer>
+<script>
+    function initMap() {
+        var cafeLocation = {lat: -34.397, lng: 150.644};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: cafeLocation
+        });
+        var marker = new google.maps.Marker({
+            position: cafeLocation,
+            map: map
+        });
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CozyCafe | Location</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">CozyCafe</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="location">
+    <h2>Visit Us</h2>
+    <p>123 Cozy Street, Delhi, India</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.21911331035!2d77.19259139999999!3d28.54944795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce269cf2f7791%3A0x9aa39900864a81ce!2sHauz%20Khas%20Village%2C%20New%20Delhi%2C%20Delhi%20110016!5e0!3m2!1sen!2sin!4v1718016322211!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="photos">
+        <img src="Img/360_F_875625853_PLkex0x3AeCa56GqgqCTzIFbLGKK46bj.jpg" alt="Cafe Exterior" />
+        <img src="Img/istockphoto-1428594094-612x612.jpg" alt="Cafe Interior" />
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 CozyCafe. All rights reserved.</p>
+</footer>
+</body>
+</html>
